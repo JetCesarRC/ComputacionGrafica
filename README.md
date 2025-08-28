@@ -9,7 +9,9 @@ Prácticas y proyectos de la asignatura Computación Gráfica. Cada práctica se
 
 **Profesor de Laboratorio:** Ing. Jose Roque Roman Guadarrama 
 
-**Grupo:** 13  
+**Grupo de Teoría:** 04
+
+**Grupo de Laboratorio:** 13  
 
 **Ciclo escolar:** 2026-1
 

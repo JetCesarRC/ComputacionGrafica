@@ -1,18 +1,25 @@
-# Computación Gráfica
+# Práctica 1 – Introducción a OpenGL 
 
-**Alumno:** Cesar Romualdo Ramirez Cervantes  
+## 🎯 Objetivos de aprendizaje  
 
-**Materia:** Computación Gráfica e Interacción Humano-Computadora 
+### I. Objetivo general  
+El alumno aprenderá las instrucciones básicas de **OpenGL** y **GLSL** para desplegar gráficos en dos dimensiones.  
 
-**Profesor de Teoría:** Ing. Jose Ramon Perez Athie
-
-**Profesor de Laboratorio:** Ing. Jose Roque Roman Guadarrama 
-
-**Grupo de Teoría:** 04
-
-**Grupo de Laboratorio:** 13  
-
-**Ciclo escolar:** 2026-1
+### II. Objetivos específicos  
+- El alumno aprenderá las instrucciones básicas de OpenGL con las cuales podrá dibujar figuras en la pantalla.  
+- Utilizar **Vertex Shader** y **Fragment Shader**.  
+- Declarar contexto de OpenGL y librería de ventana (**GLFW**).  
+- Implementar **Vertex Array Objects (VAO)** y **Vertex Buffer Objects (VBO)**.  
+- Emplear índices, buffers y funciones principales (`main`, `init`).  
 
 ---
-Este repositorio contiene el desarrollo de las prácticas y proyectos de la asignatura de Computación Gráfica.
+
+## 📝 Descripción de la práctica  
+La práctica consistió en implementar un programa en **C++ con OpenGL**, empleando las librerías **GLFW** y **GLEW** para la gestión del contexto gráfico.  
+
+Se cumplieron los siguientes requerimientos:  
+1. La ventana cambia el color de fondo de forma aleatoria utilizando valores en el rango RGB, con una periodicidad de **2 segundos**.  
+2. Se dibujan **tres letras iniciales del nombre del alumno (C, R y E)** creadas a partir de triángulos, todas en un mismo color.  
+3. Ambos ejercicios se muestran de forma simultánea en un mismo `main`.  
+
+

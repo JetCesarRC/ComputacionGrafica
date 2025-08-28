@@ -1,7 +1,7 @@
 # Computación Gráfica
 Prácticas y proyectos de la asignatura Computación Gráfica. Cada práctica se encuentra en su propia rama, con código fuente y ejecutables.
 
-**Alumno:** César Romualdo Ramírez Cervantes  
+**Alumno:** Cesar Romualdo Ramirez Cervantes  
 **Materia:** Computación Gráfica e Interacción Humano-Computadora 
 **Profesor de Teoría:** Ing. Jose Ramon Perez Athie
 **Profesor de Laboratorio:** Ing. Jose Roque Roman Guadarrama 

@@ -1,25 +1,26 @@
-#Práctica 2 – Proyecciones y puertos de vista. Transformaciones geométricas
+# Práctica 2 – Proyecciones y Transformaciones en OpenGL  
 
-##🎯 Objetivos de aprendizaje
-###I. Objetivo general
-El alumno empleará el pipeline de renderizado para definir proyecciones en perspectiva y ortográfica, delimitará su frustum de visualización y aplicará transformaciones homogéneas para modificar dinámicamente elementos geométricos mediante entradas de teclado y ratón.
+## 🎯 Objetivos de aprendizaje  
 
-###II. Objetivos específicos
+### I. Objetivo general  
+El alumno empleará el **pipeline de renderizado** para definir proyecciones en **perspectiva** y **ortográfica**, delimitará su espacio de trabajo (**frustum**) y aplicará **transformaciones homogéneas** para modificar dinámicamente elementos geométricos en pantalla.  
 
-Construir la matriz de proyección y la matriz de modelo utilizando GLM.
+### II. Objetivos específicos  
+- Conocer las estructuras de datos de la biblioteca de matemáticas de **OpenGL (GLM)** para construir la **matriz de proyección** y la **matriz de modelo**.  
+- Transformar elementos de la escena dinámicamente mediante **callbacks** de ratón y teclado.  
+- Aplicar **traslaciones, rotaciones y escalados** a geometrías en un espacio tridimensional.  
+- Emplear **mallas indexadas** (cubos y pirámides) y mallas con **color por vértice** (letras).  
+- Implementar **shaders** para color fijo (rojo, verde, azul, café, verde oscuro) y shaders con color por vértice.  
+- Utilizar la prueba de profundidad (**GL_DEPTH_TEST**) para un renderizado correcto en 3D.  
 
-Aplicar traslación, rotación y escala a geometrías simples en 3D.
+---
 
-Gestionar mallas indexadas (cubos, pirámides) y mallas con color por vértice (letras).
+## 📝 Descripción de la práctica  
+La práctica consistió en implementar un programa en **C++ con OpenGL**, utilizando las librerías **GLFW**, **GLEW** y **GLM** para la gestión del contexto gráfico y operaciones matemáticas.  
 
-Cargar y utilizar shaders para color fijo (rojo, verde, azul, café, verde oscuro) y para color por vértice.
+Se cumplieron los siguientes requerimientos:  
+1. Dibujar las **iniciales del nombre del alumno**, cada una con un **color diferente**, empleando un shader con atributos de **color por vértice**.  
+2. Generar una **casa 3D** formada únicamente a partir de **cubos y pirámides** (cuerpo, techo, puerta, ventanas y árboles).  
+3. Implementar **fragment shaders de color fijo** para representar los diferentes elementos de la casa en colores rojo, verde, azul, café y verde oscuro.  
+4. Representar la escena con **proyección en perspectiva** y aplicar **transformaciones homogéneas** para posicionar, escalar y rotar dinámicamente los objetos.  
 
-Habilitar y aprovechar GL_DEPTH_TEST para el manejo correcto de la profundidad.
-
-##📝 Descripción de la práctica
-La práctica consiste en implementar una escena en C++/OpenGL (GLFW, GLEW, GLM) que muestre:
-
-Las iniciales del alumno, cada una con un color diferente, renderizadas con un shader que recibe atributos de color por vértice.
-
-Una casa 3D construida exclusivamente a partir de cubos y pirámides (cuerpo, techo, puerta, ventanas y árboles), coloreada mediante fragment shaders de color fijo (rojo, verde, azul, café y verde oscuro).
-La escena utiliza proyección en perspectiva, prueba de profundidad y transformaciones homogéneas para posicionar, escalar y, opcionalmente, animar los objetos (por ejemplo, una rotación suave para apreciar el volumen). Se sugiere incorporar callbacks de teclado/ratón para ajustar parámetros en tiempo real.

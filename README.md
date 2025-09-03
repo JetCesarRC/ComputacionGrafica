@@ -1,10 +1,10 @@
-Práctica 2 – Proyecciones y puertos de vista. Transformaciones geométricas
+#Práctica 2 – Proyecciones y puertos de vista. Transformaciones geométricas
 
-🎯 Objetivos de aprendizaje
-I. Objetivo general
+##🎯 Objetivos de aprendizaje
+###I. Objetivo general
 El alumno empleará el pipeline de renderizado para definir proyecciones en perspectiva y ortográfica, delimitará su frustum de visualización y aplicará transformaciones homogéneas para modificar dinámicamente elementos geométricos mediante entradas de teclado y ratón.
 
-II. Objetivos específicos
+###II. Objetivos específicos
 
 Construir la matriz de proyección y la matriz de modelo utilizando GLM.
 
@@ -16,7 +16,7 @@ Cargar y utilizar shaders para color fijo (rojo, verde, azul, café, verde oscur
 
 Habilitar y aprovechar GL_DEPTH_TEST para el manejo correcto de la profundidad.
 
-📝 Descripción de la práctica
+##📝 Descripción de la práctica
 La práctica consiste en implementar una escena en C++/OpenGL (GLFW, GLEW, GLM) que muestre:
 
 Las iniciales del alumno, cada una con un color diferente, renderizadas con un shader que recibe atributos de color por vértice.

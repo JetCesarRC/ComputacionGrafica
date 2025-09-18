@@ -20,6 +20,3 @@ Documentar con fragmentos de código y capturas de ejecución.
 📝 Descripción de la práctica
 
 La práctica consiste en implementar, en C++ con OpenGL (usando GLFW, GLEW y GLM), dos modelos jerárquicos: una grúa articulada con base piramidal y ruedas independientes, y un animal robot con cuatro patas (2 DOF cada una) y dos orejas articuladas. Se deberán instanciar primitivas, definir pivotes, y encadenar transformaciones para que los movimientos se propaguen correctamente a lo largo de la jerarquía. Las articulaciones se controlan por teclado con límites de seguridad (p. ej., caderas ±35°, rodillas 0–85°, orejas ±30°). Como evidencia, se incluyen fragmentos de código clave y capturas de la ejecución mostrando distintas poses y configuraciones.
-
-Pensando
-ChatGPT puede co

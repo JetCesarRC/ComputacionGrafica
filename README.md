@@ -1,24 +1,19 @@
-## 🎯 Objetivos de aprendizaje
-### I. Objetivo general
+# Computación Gráfica
+Prácticas y proyectos de la asignatura Computación Gráfica. Cada práctica se encuentra en su propia rama, con código fuente y ejecutables.
 
-El alumno aplicará modelado jerárquico para construir y animar modelos 3D a partir de primitivas, configurará una cámara sintética y utilizará el pipeline de renderizado para propagar transformaciones en una estructura padre–hijo con articulaciones controladas por teclado.
+**Alumno:** Cesar Romualdo Ramirez Cervantes  
 
-### II. Objetivos específicos
+**Materia:** Computación Gráfica e Interacción Humano-Computadora 
 
-Descomponer modelos complejos en submódulos y definir su árbol jerárquico (padre–hijo y pivotes).
+**Profesor de Teoría:** Ing. Jose Ramon Perez Athie
 
-Instanciar y parametrizar primitivas (cubo, cilindro, cono, pirámide y esfera) para formar partes reutilizables.
+**Profesor de Laboratorio:** Ing. Jose Roque Roman Guadarrama 
 
-Encadenar transformaciones homogéneas (traslación, rotación, escala) usando marcos intermedios para heredar/recuperar referencia.
+**Grupo de Teoría:** 04
 
-Controlar grados de libertad con teclas y respetar límites angulares por articulación.
+**Grupo de Laboratorio:** 13  
 
-Configurar la cámara virtual y mantener GL_DEPTH_TEST habilitado para un render 3D correcto.
+**Ciclo escolar:** 2026-1
 
-Documentar con fragmentos de código y capturas de ejecución.
-
---- 
-
-## 📝 Descripción de la práctica
-
-La práctica consiste en implementar, en C++ con OpenGL (usando GLFW, GLEW y GLM), dos modelos jerárquicos: una grúa articulada con base piramidal y ruedas independientes, y un animal robot con cuatro patas (2 DOF cada una) y dos orejas articuladas. Se deberán instanciar primitivas, definir pivotes, y encadenar transformaciones para que los movimientos se propaguen correctamente a lo largo de la jerarquía. Las articulaciones se controlan por teclado con límites de seguridad (p. ej., caderas ±35°, rodillas 0–85°, orejas ±30°). Como evidencia, se incluyen fragmentos de código clave y capturas de la ejecución mostrando distintas poses y configuraciones.
+---
+Este repositorio contiene el desarrollo de las prácticas y proyectos de la asignatura de Computación Gráfica.
